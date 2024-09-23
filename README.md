@@ -30,6 +30,7 @@ To run this project locally, follow these steps:
 Ensure that you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
+- [Node.js (v14)](https://nodejs.org/en/)
 - [Sass](https://sass-lang.com/install)
 
 ### Installation
@@ -46,24 +47,20 @@ Ensure that you have the following installed on your machine:
    cd bike-landing
    ```
 
-3. **Compile Sass (if making changes)**:
+3. **Install dependencies**:
 
-   If you plan on modifying the Sass files, run the following command to watch and compile the Sass into CSS:
-
-   ```bash
-   sass --watch scss:css
-   ```
-
-4. **Open the project**:
-
-   You can now open the `index.html` file in your browser to view the landing page locally:
+   Run the following command to install all required modules:
 
    ```bash
-   open index.html
+   npm install
    ```
 
-   Alternatively, if you prefer, you can use a local development server like `live-server` to serve the project:
+4. **Run the project**:
+
+   Start the project locally using the following command:
 
    ```bash
-   live-server
+   npm start
    ```
+
+   This will serve the project locally, and you can view it in your browser.
